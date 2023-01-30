@@ -1,8 +1,50 @@
 <! DOCTYPE html> 
 <html lang="en">
 <head>      
+<link rel="stylesheet" href="mystyle.css">
 <meta charset="UTF-8">
 <title>s25656</title> 
+<style>
+ .myBox {
+
+margin-left: 230px;
+}
+   ol {
+    list-style-type: upper-roman; /* Заглавные буквы */
+   }
+   .block1 { 
+    width: 200px; 
+    background: maroon;
+    padding: 2% 2px;
+    padding-right: 20px; 
+    border: solid 1px black; 
+    float: left;
+    font-style:italic;
+    font-weight:bolder;
+   }
+      table {
+        width: 50%;
+        border-collapse: collapse;
+      }
+      td, th {
+        border: 1px solid #98bf21;
+        padding: 3px 7px 2px 7px;
+      }
+      th {
+        text-align: left;
+        padding: 5px;
+        background-color: #A7C942;
+        color: #fff;
+      }
+      .alt td { background-color: #EAF2D3; }
+         button {
+    background: #0066ff; /* Синий цвет фона */
+    
+    border: none; /* Убираем рамку */
+    padding: 1rem 1.5rem; /* Поля вокруг текста */
+    margin-bottom: 1rem; /* Отступ снизу */ 
+   }
+    </style>
 </head>
 <body>
 
@@ -13,8 +55,9 @@
 <input type="text" name="Lastname"> Nazwisko<br>     
 <input type="email" name="email"> E-Mail<br>     
 <input type="text" name="Git"> Git<br>      
-<input type="submit" value="Submit">    
+ <button> <input type="submit" value="Submit">     </button>
 </fieldset>
+<div class="block1">
    <h3>About me</h3><br>
 William Bradley Pitt, born William Bradley Pitt. December 18, 1963, Shawnee, Oklahoma, USA.<br>
 A) is an American actor and film producer<br>
@@ -26,19 +69,26 @@ as one of the producers of 12 Years a Slave.<br>
 - winner in the Best Picture category at the<br>
 2014 - and for Outstanding Supporting Actor in Once Upon a Time in Hollywood<br>
 (2020)[1]. Prior to that, he was nominated five times<br>
-Oscar Flight.<br>
+Oscar Flight.<br></div>
 <br>
-   <h3>My hobby</h3><br>
-1. Antiquing<br>
-2. Aquarium Keeping<br>
-3. Archery<br>
-4. Astrology<br>
-5. Astronomy<br>
-6. Baking<br>
-9. Billiards<br><br>
+   <h3>My hobby</h3>
+   <div class ="myBox">
+<ol>
+    <li> Antiquing<br></li>
+    <li> Aquarium Keeping<br></li>
+    <li> Archery<br></li>
+    <li> Astrology<br></li>
+    <li> Astronomy<br></li>
+    <li> Antiquing<br></li>
+    <li> Baking<br></li>
+    <li> Billiards<br></li>
+</ol></div>
+
 <a href="https://gakko.pja.edu.pl/">Visit our website</a><br><br>
 <h3>Sсhool</h3></h3>
+
 <table>
+
   <tr>
     <th>Subjects</th>
     <th>Grades</th>
@@ -48,7 +98,7 @@ Oscar Flight.<br>
     <td>10</td>
 
   </tr>
-  <tr>
+  <tr><tr class="alt">
     <td>Social studies</td>
     <td>9<br></td>
 
@@ -58,7 +108,7 @@ Oscar Flight.<br>
     <td>9<br></td>
 
   </tr>
-    <tr>
+    <tr><tr class="alt">
     <td>Biology</td>
     <td>9<br></td>
 
@@ -68,7 +118,8 @@ Oscar Flight.<br>
     <td>9<br></td>
 
   </tr>
-</table>
+
+</table> 
 
 
 <br><br>
